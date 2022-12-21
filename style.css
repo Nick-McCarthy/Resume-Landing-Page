@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 4vw;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.buffer-space {
+  background-color: rgb(57, 43, 184);
+  width: 100vw;
+  height: 40vh;
+  vertical-align: top;
+}
+
+.p-title {
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: xxx-large;
+}
+
+.profile-right {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.profile-pic {
+  width: 20vw;
+
+  margin: 2%;
+}
+
+.profile-disc {
+  float: right;
+  width: 50vw;
+  margin: 2%;
+  padding-top: 5%;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1%;
+}
+
+.left-column {
+  font-size: 4vw;
+  text-align: right;
+  float: left;
+  margin: 1%;
+  padding: 1%;
+  width: 18%;
+  height: inherit;
+  border-style: none solid none none;
+  border-color: rgb(57, 43, 184);
+  color: rgb(57, 43, 184);
+}
+
+.right-column {
+  width: 80%;
+}
+
+.right-row {
+  display: flex;
+  float: center;
+  width: 100%;
+}
+
+.right-row > div {
+  font-size: 2vw;
+  margin: 0.1em;
+  padding: 0.3em;
+  border-radius: 3px;
+  flex: 1;
+}
+
+.card-title {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: auto;
+  margin: 0 auto;
+  background-color: rgb(57, 43, 184);
+  color: white;
+}
+
+.big-card {
+  position: relative;
+  height: 60%;
+}
+
+.big-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.little-card {
+  position: relative;
+  height: 30%;
+}
+
+.little-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-right {
+  display: flex;
+  width: 80%;
+  float: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5vh;
+  color: rgb(57, 43, 184);
+  font-size: 3vw;
+}
